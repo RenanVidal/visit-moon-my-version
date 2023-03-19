@@ -1,0 +1,39 @@
+
+:root {
+    --icon-main-color: #ffffff;
+    --main-font-color: #889AC9;
+    --secondary-font-color: #ffffff;
+
+}
+
+body {
+    background-color: black;
+    background-image: url(../image/BG.svg);
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    align-items: center;
+    padding: 1.5em;
+}
+
+.navbar-logo {
+    font-size: 44px;
+    font-weight: 400;
+    color:var(--main-font-color);
+}
+
+.navbar-menu {
+    
+}
+
+.first_screen {
+    displ
+}
+
+.first_screen-title_l, .first_screen-title_r {
+    font-size: 50px;
+    color: var(--main-font-color);
+}
