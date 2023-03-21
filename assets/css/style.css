@@ -105,6 +105,63 @@ body {
     margin-top: 2em;
 }
 
+/* transition screen */
+
+.transitionScreen__empty {
+    margin: 30em 0 30em 0;
+}
+
+/* Second Screen */
+
+.secondScreen {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-content: center;
+    text-align: center;
+    color: var(--secondary-font-color);
+    width: 100vw;
+    height: 100vh;
+}
+
+.secondScreen__title {
+    font-size: 32px;
+}
+
+.secondScreen__image {
+    width: 100vw;
+    height: 80vw;
+    justify-items: center;
+    align-items: center;
+}
+
+.secondScreen__text {
+    font-size: 14px;
+    flex-wrap: wrap;
+    border: 1px solid var(--icon-main-color);
+    border-radius: 5px;
+    margin: 0em 1.5em .5em 1.5em;
+    padding: 1em .5em 1em .5em;
+}
+
+/* transition screen banner*/
+
+.transitionScreen {
+    width: 100vw;
+    position: relative;
+}
+
+.transitonScreen__banner {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    font-size: 50px;
+    width: 100vw;
+    left: -1em;
+
+}
+
 @media (min-width: 1440px) {
 
     .navbar__menu {
@@ -121,7 +178,12 @@ body {
     .navbar__option-list {
         display: flex;
         justify-content: space-evenly;
-        padding-right: 1em;
+    }
+
+    .navbar__option-itemList {
+        padding-right: 2em;
+        font-size: 22px;
+
     }
 
     .firstScreen {
@@ -142,7 +204,7 @@ body {
         position: relative;
         display: flex;
         justify-content: space-between;
-        padding: 0 1em 0 2em;
+        padding: 0 0em 0 0em;
         width: 100vw;
         height: 50vh;
     }
@@ -154,18 +216,18 @@ body {
     }
     
     .firstScreen__title-image {
-        display: flex;
-        flex-wrap: wrap;
         position: absolute;
-        width: 100vw;
-        height: 50vh;
+        width: 668px;
+        height: 668px;
+        left: 386px;
+        top: 282px;
     }
     
     .firstScreen__principal-image {
         display: flex;
-        width: 45vw;
-        height: 73vh;
-        margin: 0 0 0 2.5em;
+        width: 49vw;
+        height: 86vh;
+        margin: 0 0 0 2em;
         padding: 0;
         justify-items: center;
         align-items: center;
@@ -178,7 +240,6 @@ body {
         font-weight: 400;
         color: var(--secondary-font-color);
         margin-top: 1em;
-        padding: 0 2em 0 2em;
     }
     
     .firstScreen__subtitle {
